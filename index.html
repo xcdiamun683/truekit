@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUEKIT - El Cambio Justo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">🔄</span>
+                    <span class="logo-text">TRUEKIT</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#inicio" class="nav-link active">Inicio</a>
+                    <a href="#como-funciona" class="nav-link">¿Cómo funciona?</a>
+                    <a href="#comunidad" class="nav-link">Comunidad</a>
+                    <a href="#colaboraciones" class="nav-link">Colaboraciones</a>
+                    <button class="btn-primary" id="btnRegistro">Unirme ahora</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🌱</span>
+                    <span>Economía Circular</span>
+                </div>
+                <h1 class="hero-title">
+                    El Cambio<br>
+                    <span class="hero-highlight">Justo</span>
+                </h1>
+                <p class="hero-subtitle">Conecta, Transforma, Intercambia</p>
+                <p class="hero-description">
+                    Una plataforma digital para el intercambio sostenible de objetos y servicios 
+                    que impulsa la economía circular en tu comunidad.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn-large btn-primary">Comenzar ahora</button>
+                    <button class="btn-large btn-secondary">Ver video</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">Intercambios</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="250">0</div>
+                        <div class="stat-label">Usuarios Activos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Toneladas CO₂ Ahorradas</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Descubre más</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <div class="mission-content">
+                <div class="mission-text">
+                    <h2 class="section-title">
+                        <span class="title-accent">Nuestra Misión:</span><br>
+                        Repensando el Consumo
+                    </h2>
+                    <p>Conectamos personas que quieren dar nueva vida a sus objetos, reducir residuos y fortalecer lazos comunitarios.</p>
+                    <p>Nuestra aplicación transforma la manera en que intercambiamos bienes y servicios, poniendo en contacto usuarios abiertos a dar y recibir lo que realmente necesitan.</p>
+                    <p>Fomentamos la economía circular, la sostenibilidad y el respeto al medio ambiente, creando una comunidad donde el valor no se mide solo en euros, sino en conexiones significativas.</p>
+                </div>
+                <div class="mission-visual">
+                    <div class="circle-graphic">
+                        <div class="circle-item" style="--delay: 0s">
+                            <span class="circle-emoji">♻️</span>
+                            <span class="circle-label">Reutiliza</span>
+                        </div>
+                        <div class="circle-item" style="--delay: 0.2s">
+                            <span class="circle-emoji">🤝</span>
+                            <span class="circle-label">Conecta</span>
+                        </div>
+                        <div class="circle-item" style="--delay: 0.4s">
+                            <span class="circle-emoji">🌍</span>
+                            <span class="circle-label">Cuida</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TrueTokens Section -->
+    <section class="truetokens">
+        <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-accent">Sistema Innovador:</span><br>
+                TrueTokens - El Motor del Intercambio
+            </h2>
+            <div class="tokens-grid">
+                <div class="token-card" style="--delay: 0s">
+                    <div class="token-icon">⚖️</div>
+                    <h3>Compensación Inteligente</h3>
+                    <p>Los créditos o TrueTokens igualan las diferencias de valor entre objetos de distinto precio, facilitando intercambios justos y ágiles.</p>
+                    <div class="token-badge">01</div>
+                </div>
+                <div class="token-card" style="--delay: 0.1s">
+                    <div class="token-icon">🛡️</div>
+                    <h3>Sin Especulación</h3>
+                    <p>Límites establecidos para evitar acumulación excesiva. También puedes agrupar varios objetos para compensar diferencias de valor.</p>
+                    <div class="token-badge">02</div>
+                </div>
+                <div class="token-card" style="--delay: 0.2s">
+                    <div class="token-icon">🔄</div>
+                    <h3>Flujo Constante</h3>
+                    <p>Priorizamos el uso activo de créditos sobre su acumulación, incentivando intercambios continuos y dinamismo en la comunidad.</p>
+                    <div class="token-badge">03</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="como-funciona" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title centered">¿Cómo Funciona?</h2>
+            <div class="steps-container">
+                <div class="step-item" style="--step: 1">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon">📸</div>
+                        <h3>Publica tu objeto</h3>
+                        <p>Completa un cuestionario rápido para tasar y categorizar tu artículo de forma justa.</p>
+                    </div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step-item" style="--step: 2">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon">🔍</div>
+                        <h3>Explora y conecta</h3>
+                        <p>Encuentra objetos de valor similar o servicios "en campaña" de otros usuarios.</p>
+                    </div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step-item" style="--step: 3">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon">✨</div>
+                        <h3>Intercambia</h3>
+                        <p>Cierra el trato y recibe TrueTokens automáticamente si entregas algo de menor valor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-accent">Servicios en Campaña:</span><br>
+                Accede a Experiencias Únicas
+            </h2>
+            <p class="section-description">Usa tus TrueTokens para acceder a servicios especiales ofrecidos por usuarios que buscan visibilidad</p>
+            
+            <div class="services-grid">
+                <div class="service-card" style="--delay: 0s">
+                    <div class="service-header">
+                        <span class="service-emoji">🎸</span>
+                        <span class="service-time">⏱️ 2 semanas</span>
+                    </div>
+                    <h3>Clases de guitarra en grupo</h3>
+                    <div class="service-tokens">
+                        <span class="token-coin">🪙</span>
+                        <span>50 TrueTokens</span>
+                    </div>
+                </div>
+                <div class="service-card" style="--delay: 0.1s">
+                    <div class="service-header">
+                        <span class="service-emoji">🎨</span>
+                        <span class="service-time">⏱️ 1 semana</span>
+                    </div>
+                    <h3>Diseño gráfico personalizado</h3>
+                    <div class="service-tokens">
+                        <span class="token-coin">🪙</span>
+                        <span>75 TrueTokens</span>
+                    </div>
+                </div>
+                <div class="service-card" style="--delay: 0.2s">
+                    <div class="service-header">
+                        <span class="service-emoji">🍳</span>
+                        <span class="service-time">⏱️ 3 días</span>
+                    </div>
+                    <h3>Talleres de cocina sostenible</h3>
+                    <div class="service-tokens">
+                        <span class="token-coin">🪙</span>
+                        <span>60 TrueTokens</span>
+                    </div>
+                </div>
+                <div class="service-card" style="--delay: 0.3s">
+                    <div class="service-header">
+                        <span class="service-emoji">🔧</span>
+                        <span class="service-time">⏱️ Permanente</span>
+                    </div>
+                    <h3>Reparaciones y arreglos locales</h3>
+                    <div class="service-tokens">
+                        <span class="token-coin">🪙</span>
+                        <span>40 TrueTokens</span>
+                    </div>
+                </div>
+            </div>
+            <div class="services-note">
+                <p>⏰ <strong>Tiempo limitado:</strong> Los usuarios oferentes aparecen por periodos determinados, creando oportunidades únicas para todos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="comunidad" class="community">
+        <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-accent">Comunidad:</span><br>
+                Confianza y Crecimiento
+            </h2>
+            <div class="community-grid">
+                <div class="community-card">
+                    <div class="community-icon">⭐</div>
+                    <h3>Reseñas y Valoraciones</h3>
+                    <p>Los propios usuarios garantizan el buen funcionamiento mediante valoraciones transparentes.</p>
+                </div>
+                <div class="community-card">
+                    <div class="community-icon">👥</div>
+                    <h3>Comunidad Comprometida</h3>
+                    <p>Como en las mejores redes sociales, nuestra comunidad cuida de sí misma y crece con confianza.</p>
+                </div>
+                <div class="community-card">
+                    <div class="community-icon">🏆</div>
+                    <h3>Sistema de Insignias</h3>
+                    <p>Más intercambios y acciones éticas desbloquean niveles superiores con servicios exclusivos.</p>
+                </div>
+            </div>
+            
+            <!-- Badges Showcase -->
+            <div class="badges-showcase">
+                <h3>Insignias Disponibles</h3>
+                <div class="badges-container">
+                    <div class="badge-item">
+                        <span class="badge-emoji">🌱</span>
+                        <span class="badge-name">Novato Verde</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-emoji">🌿</span>
+                        <span class="badge-name">Eco-Guerrero</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-emoji">🌳</span>
+                        <span class="badge-name">Maestro Circular</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-emoji">🌍</span>
+                        <span class="badge-name">Líder Sostenible</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-emoji">💚</span>
+                        <span class="badge-name">Corazón Verde</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaborations Section -->
+    <section id="colaboraciones" class="collaborations">
+        <div class="container">
+            <h2 class="section-title centered">Colaboraciones Locales con Impacto</h2>
+            
+            <div class="collab-grid">
+                <div class="collab-card bio-alverde">
+                    <div class="collab-header">
+                        <h3>🌾 BIO-Montequinto Alverde</h3>
+                    </div>
+                    <p>Colaboramos con este proyecto local de inserción sociolaboral y consumo justo.</p>
+                    <p><strong>Dona para obtener créditos y reseñas</strong>, mientras apoyas a personas en riesgo de exclusión social.</p>
+                    <a href="https://bioalverde.com/quienes-somos-2/" target="_blank" class="collab-link">Conocer más →</a>
+                </div>
+                
+                <div class="collab-card local-commerce">
+                    <div class="collab-header">
+                        <h3>🏪 Comercio Local Visible</h3>
+                    </div>
+                    <p>Los negocios locales pueden publicitar productos ofertándolos en campañas a cambio de créditos.</p>
+                    <p><strong>Ganan visibilidad</strong> y participan activamente en la economía circular.</p>
+                </div>
+                
+                <div class="collab-card plant-tree">
+                    <div class="collab-header">
+                        <h3>🌳 Planta un Árbol</h3>
+                        <span class="collab-badge">El Pulmón de Dos Hermanas</span>
+                    </div>
+                    <p>En colaboración con el Ayuntamiento de Dos Hermanas, reconocido por impulsar proyectos de reforestación participativa.</p>
+                    <div class="tree-benefits">
+                        <div class="benefit-item">
+                            <span>✓</span> Destina tus TrueTokens
+                        </div>
+                        <div class="benefit-item">
+                            <span>✓</span> Contribuye a plantar árboles
+                        </div>
+                        <div class="benefit-item">
+                            <span>✓</span> Mejora nuestro entorno
+                        </div>
+                        <div class="benefit-item">
+                            <span>✓</span> Absorbe CO₂
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainable Mobility Section -->
+    <section class="mobility">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-accent">Movilidad Sostenible:</span><br>
+                Premio al Transporte Responsable
+            </h2>
+            <div class="mobility-content">
+                <div class="mobility-steps">
+                    <div class="mobility-step">
+                        <div class="mobility-icon">🎫</div>
+                        <h3>Mostrar Ticket</h3>
+                        <p>Presentar comprobante de transporte antes de cerrar.</p>
+                    </div>
+                    <div class="mobility-arrow">→</div>
+                    <div class="mobility-step">
+                        <div class="mobility-icon">🪙</div>
+                        <h3>Recibir Bonificación</h3>
+                        <p>Obtener créditos por movilidad sostenible.</p>
+                    </div>
+                </div>
+                <p class="mobility-description">
+                    Incentivamos el uso del transporte público en intercambios presenciales. 
+                    <strong>Menos huella de carbono, más recompensas.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Vision Section -->
+    <section class="vision">
+        <div class="container">
+            <h2 class="section-title centered">Visión de Futuro</h2>
+            <div class="vision-timeline">
+                <div class="timeline-item" style="--index: 1">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>Fase Local</h3>
+                        <p>Desarrollo con ciclos formativos del instituto y programas municipales de inclusión social y laboral.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" style="--index: 2">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3>Consolidación Regional</h3>
+                        <p>Expansión a otras comunidades andaluzas fortaleciendo redes de intercambio sostenible.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" style="--index: 3">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h3>Escalado Nacional</h3>
+                        <p>Colaboración con empresas de mensajería eco para cubrir envíos y llegar a toda España.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final Section -->
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Únete a TRUEKIT</h2>
+                <p>Transforma tu forma de consumir, conecta con tu comunidad y construye un futuro más sostenible.</p>
+                <div class="cta-buttons">
+                    <button class="btn-large btn-primary">Comenzar Ahora</button>
+                    <button class="btn-large btn-outline">Conocer Más</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🔄</span>
+                        <span class="logo-text">TRUEKIT</span>
+                    </div>
+                    <p>El cambio justo para una economía circular</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#como-funciona">¿Cómo funciona?</a></li>
+                        <li><a href="#comunidad">Comunidad</a></li>
+                        <li><a href="#colaboraciones">Colaboraciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Proyecto</h4>
+                    <ul>
+                        <li><a href="#">IES Hermanos Machado</a></li>
+                        <li><a href="#">1º SMR 25/26</a></li>
+                        <li><a href="#">Sostenibilidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p>Dos Hermanas, Sevilla</p>
+                    <p>info@truekit.es</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TRUEKIT - Todos los derechos reservados</p>
+                <p>Desarrollado con 💚 por estudiantes de IES Hermanos Machado</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
